@@ -231,7 +231,8 @@ width: 298px;
     /* -------------doing-------------- */
     .doing {
       padding-top: 0;
-      padding-bottom: 120px; 
+      padding-bottom: 120px;
+      display: flex; 
       
     }
     
