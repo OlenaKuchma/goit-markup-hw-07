@@ -54,8 +54,18 @@ width: 298px;
    } 
 
    .hero {
+    background-image: var(--grad),
+  url(../images/hero/Dark-bg-pl.jpg);
     max-width: 768px;
   
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--grad),
+    url(../images/hero/Dark-bg-pl-2x.jpg);
+  }
 }
 
      /*-------------- feature ------------*/
@@ -178,12 +188,20 @@ width: 298px;
 
 /* ----------- HERO ------------- */
 .hero {
- 
+  background-image: var(--grad),
+  url(../images/hero/people-office.jpg);
   max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-left: auto;
-  margin-right: auto;
+  
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--grad),
+    url(../images/hero/people-office-2x.jpg);
+  }
 }
 .hero-title {
   max-width: 496px;
