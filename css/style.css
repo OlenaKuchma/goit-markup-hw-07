@@ -336,7 +336,7 @@ color: var(--color-slate);
   /* margin: 0 465px auto; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 0 114px auto;
+  margin: 0 auto 112px;
 }
 
 .hero-btn:is(:hover, :focus) {
@@ -416,6 +416,11 @@ color: var(--color-slate);
   padding-top: 96px;
   padding-bottom: 96px;
 }
+
+.team-container {
+  width: 298px;
+  }
+
 .team-list {
   width: 100%;
   display: flex;
