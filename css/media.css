@@ -5,12 +5,8 @@
    
 .container {
     width: 426px;
-
 }
 
-  
-  
-}
 /*-------------- feature ------------*/
 
 /* customers */
@@ -25,21 +21,34 @@
 width: 298px;
 }
 
+
 /* ----------footer----------- */
 
+/* ------filters--------- */
 
-    
+  
   
 @media screen and (min-width: 768px) {
    
     .container {
       width: 766px;
+
     }
 /* header */
-
+.header {
+ padding-bottom: 0;
+ position: relative;
+ }
 .header-container {
+  
+}
+
+.header-nav {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 120px;
+  
 }
 .header-list {
   display: flex;
@@ -49,10 +58,14 @@ width: 298px;
 .header-list-address {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 12px;
-  
-}
+   }
+
+  .address {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
 .header-link {
   font-family: inherit;
   font-weight: 500;
@@ -92,9 +105,9 @@ a[class="header-link header-line link"] {
 
 .header-address {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
   color: var(--color-slate);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -103,21 +116,18 @@ a[class="header-link header-line link"] {
   color: var(--color-ocean);
 }
 
-.header-icon {
+.header-icon-btn {
   display: none;
 }
 
     
 
    /* hero */
-   .hero-btn {
-    margin: 0 284px auto;
-   } 
-
+   
    .hero {
     background-image: var(--grad),
   url(../images/hero/Dark-bg-pl.jpg);
-    max-width: 768px;
+    max-width: 1158px;
   
 }
 @media (min-device-pixel-ratio: 2),
@@ -128,6 +138,9 @@ a[class="header-link header-line link"] {
     url(../images/hero/Dark-bg-pl-2x.jpg);
   }
 }
+.hero-btn {
+  margin: 0 284px auto;
+ } 
 
      /*-------------- feature ------------*/
     
@@ -234,7 +247,9 @@ a[class="header-link header-line link"] {
         width: 1158px;
     }
 /* header */
-
+.header {
+  position: relative;
+}
 .header-container {
   display: flex;
   align-items: flex-start;
@@ -250,6 +265,12 @@ a[class="header-link header-line link"] {
   align-items: center;
   gap: 40px;
   
+}
+.address {
+  position: absolute;
+  top: 24px;
+  right: 15px;
+
 }
 .header-link {
   font-family: inherit;
@@ -300,7 +321,7 @@ a[class="header-link header-line link"] {
 .header-address:is(:hover, :focus) {
   color: var(--color-ocean);
 }
-.header-icon {
+.header-icon-btn {
   display: none;
 }
 
