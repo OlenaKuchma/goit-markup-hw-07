@@ -107,6 +107,7 @@ img {
   padding-bottom: 24px;
   background-color: var(--color-white);
   position: relative;
+
   
 }
 
@@ -129,26 +130,32 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  /* margin-right: 76px; */
+  
 }
+
 .logo-color {
   color: var(--color-navy-blue);
 }
+.header-nav {
+  
+}
+
 .header-list {
   display: none;
   
 }
+
 .header-list-address {
   display: none;
 }
+
 .header-icon-btn {
   display: block;
   width: 32px;
   height: 22px;
-  padding: 0;
   background-color: transparent;
   border: none;
-  
+  padding: 0;
  
 }
 
@@ -321,7 +328,7 @@ color: var(--color-slate);
 .hero-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.07;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;

@@ -2,7 +2,7 @@
 
 
 @media screen and (min-width: 428px) and (max-width: 768px) {}
-   
+
  
   
 @media screen and (min-width: 768px) and (max-width: 1158px) {
@@ -107,6 +107,7 @@ letter-spacing: 0.04em;
     max-width: 1158px;
   
 }
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -114,6 +115,15 @@ letter-spacing: 0.04em;
     background-image: var(--grad),
     url(../images/hero/Dark-bg-pl-2x.jpg);
   }
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  max-width: 496px;
+  
+  
 }
 
 
@@ -329,7 +339,9 @@ a[class="header-link header-line link"] {
 .hero-title {
   max-width: 496px;
   font-size: 56px;
-  margin: 0 auto 48px;}
+  line-height: 1.07;
+      
+  }
 
 
 /*-------------- feature ------------*/
