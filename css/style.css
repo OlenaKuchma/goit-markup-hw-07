@@ -176,6 +176,7 @@ img {
   padding-top: 80px;
   padding-left:  40px;
   padding-bottom:  40px;
+  padding-right: 35px;
 background-color: var(--color-dairy);
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 transform: translate(0, 0) scale(1, 1);
@@ -189,7 +190,7 @@ transform: translate(100%, 100%) scale(2, 2);
   display: block;
   position: absolute;
   top: 24px;
-  left: 380px;
+  right: 24px;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -261,7 +262,8 @@ color: var(--color-slate);
 
 .mob-menu-soc-list {
   display: flex;
-  gap: 56px;
+  justify-content: space-between;
+  max-width: 328px;
  
 }
 .mob-menu-soc-item {
