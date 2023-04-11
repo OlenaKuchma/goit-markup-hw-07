@@ -158,7 +158,7 @@ img {
   justify-content: center;
   width: 100%;
   height: 100%;
-  fill: var(--color-navy-blue);
+  stroke: var(--color-navy-blue);
  
   
 }
@@ -204,7 +204,7 @@ transform: translate(100%, 100%) scale(2, 2);
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: var(--color-navy-blue);
+ fill: var(--color-navy-blue);
   
 }
 
@@ -302,7 +302,7 @@ color: var(--color-slate);
   max-width: 768px;
   background-position: center;
   padding-top: 112px;
-  padding-bottom: 112px;
+  padding-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
