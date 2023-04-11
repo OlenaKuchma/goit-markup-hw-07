@@ -106,6 +106,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: var(--color-white);
+  position: relative;
   
 }
 
@@ -114,6 +115,7 @@ img {
   align-items: center;
   justify-content: space-between;
   overflow: auto;
+  position: static;
 }
 
 
