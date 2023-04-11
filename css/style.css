@@ -241,6 +241,7 @@ a[class="mob-menu-link contacts-link link"]  {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  
 }
 
 .mob-menu-list-address {
@@ -256,6 +257,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--color-iris);
+
 }
 
 .mob-menu-address-mail {
