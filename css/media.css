@@ -51,7 +51,7 @@
    }
 
   .address {
-    position: static;
+    position: absolute;
     top: 16px;
     right: 16px;
   }
@@ -143,14 +143,12 @@ letter-spacing: 0.04em;
     
    .feature-item {
         width: calc((100% - 24px) / 2); 
-        display: flex;
-        flex-direction: column;
-        align-items: self-start;
+        
       }
       .feature-list {
         display: flex; 
         flex-wrap: wrap;
-        gap: 24px; 
+        gap: 72px 24px; 
       }
 
     
@@ -175,6 +173,10 @@ letter-spacing: 0.04em;
       .customers-container {
         width: 552px;
         
+      }
+      .customers-list {
+        
+        gap: 72px 24px; 
       }
 
       .customers-item {
@@ -211,23 +213,29 @@ letter-spacing: 0.04em;
 .footer-wrap {
   width: 268px;
   display: block;
+  
+}
+.footer-item-title { 
+  text-align: start;
 }
 
  .footer-soc-wrap {
   display: block;
+  text-align: start;
   }
 
   .footer-form-wrap {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    
   
   }
 
   .footer-email-input {
    width: 264px; 
-      }
+         }
+  .footer-email-text {
+          text-align: start;
+         }
 .user-input {
   display: flex;
   flex-direction: row;
@@ -367,9 +375,7 @@ a[class="header-link header-line link"] {
 }
 .feature-item {
   width: calc((100% - 72px) / 4);
-  display: flex;
-  flex-direction: column;
-  align-items: self-start; }
+  }
 
   .feature-title {
     font-weight: 500;
@@ -463,6 +469,10 @@ a[class="header-link header-line link"] {
   padding-bottom: 120px; 
 }
 
+.filters-list {
+  justify-content: center; 
+}
+
 /* ---------row-------------- */
 .row-item {
   width: calc((100% - 48px) / 3); 
@@ -480,20 +490,26 @@ a[class="header-link header-line link"] {
 .footer-wrap {
   min-width: 268px;
   display: block;
- margin-right: 120px;}
+ margin-right: 120px;
+ }
 
  .footer-soc-wrap {
   display: block;
-  margin-right: 80px;}
+  margin-right: 80px;
+  }
 
   .footer-form-wrap {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-  
+     
   }
-
+  .footer-item-title { 
+    text-align: start;
+  }
+  .footer-email-text {
+    text-align: start;
+  }
   .footer-email-input {
    width: 264px; 
       }
