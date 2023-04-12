@@ -1,8 +1,20 @@
-@media screen and (min-width: 320px) and (max-width: 428px) {}
+@media screen and (min-width: 320px) and (max-width: 428px) {
+  
+}
 
 
-@media screen and (min-width: 428px) and (max-width: 768px) {}
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  .container {
+  width: 426px;
 
+}
+
+.modal {
+  
+  width: 392px;
+  padding: 72px 17px 17px;
+}
+}
  
   
 @media screen and (min-width: 768px) and (max-width: 1158px) {
@@ -222,8 +234,12 @@ letter-spacing: 0.04em;
   align-items: center;
    gap: 24px;  
 }
-
-  }  
+/*---------- modal--------------- */
+.modal {
+  width: 408px; 
+  padding: 72px 24px 24px; 
+  } 
+} 
 
 
 @media screen and (min-width: 1158px)  {
@@ -487,8 +503,11 @@ a[class="header-link header-line link"] {
   align-items: center;
    gap: 24px;  
 }
-
-
+/* modal */
+.modal {
+  width: 408px; 
+  padding: 72px 24px 24px; 
+  } 
 
     }
 
